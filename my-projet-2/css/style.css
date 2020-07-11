@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: relative;
+    box-sizing: border-box;
+}
+
+
+.body-content {
+    width: 100%;
+    min-height: 600px;
+}
+
+.container-home {
+    min-height: 700px;
+}
+
+.heading-text {
+    padding: 50px 0;
+    text-transform: uppercase;
+}
+
+.name {
+    font-size: .7em;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.heading-text .tier {
+    margin-top: 20px;
+    font-size: 40px;
+    color: seagreen;
+}
+
+.season {
+    margin-top: 30px;
+}
+
+.card {
+    margin: 30px 0;
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+.card-title p {
+    font-size: .9em;
+    color: white;
+}
+
+.container-home h1 {
+    font-size: 3em;
+    color: white;
+}
+
+.tabs li:hover {
+    background-color: seagreen;
+    cursor: pointer;
+}
